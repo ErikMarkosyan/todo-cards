@@ -1,0 +1,8 @@
+<div>
+  <app-add-card></app-add-card>
+  <div *ngFor = "let card of card ; let i=index">
+    <app-todo-cards [person] = "card.person" [task] = "card.task" [deadline] = "card.deadline" [index]="i"></app-todo-cards>
+  </div>
+  
+  
+</div>

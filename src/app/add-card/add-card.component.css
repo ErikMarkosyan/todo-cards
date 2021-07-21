@@ -1,0 +1,24 @@
+.person{
+  display: flex;
+  border-color: chartreuse;
+}
+
+.task{
+  display: flex;
+  border-color: rgb(190, 171, 60);
+}
+
+.deadline{
+    display: flex;
+    border-color: yellowgreen;
+}
+
+.add {
+  color: dimgrey;
+  background-color: chartreuse;
+}
+
+:hover.add{
+    background-color: red;
+}
+
